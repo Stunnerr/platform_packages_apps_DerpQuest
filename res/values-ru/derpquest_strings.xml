@@ -44,8 +44,8 @@
     <string name="reset">Сброс</string>
     <string name="cancel">Отмена</string>
     <string name="save">Сохранить</string>
-    <string name="default_string">По-умолчанию</string>
-    <string name="enable_first">Пожалуйста, включите сначала</string>
+    <string name="default_string">По умолчанию</string>
+    <string name="enable_first">Активируйте для начала</string>
     <string name="general_category">Общая</string>
     <string name="look_category">Посмотрите</string>
     <string name="items_category">Предметы</string>
@@ -67,7 +67,7 @@
 
     <!-- Enable navbar -->
     <string name="enable_navbar_title">Включить</string>
-    <string name="enable_navbar_summary">Навигационная панель отображается</string>
+    <string name="enable_navbar_summary">Навигационная панель включена</string>
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Ярлыки на рабочем столе</string>
@@ -163,7 +163,7 @@
 
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Пробуждать экран при зарядке</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать экран при подключении/отключении ЗУ.</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать экран при подключении/отключении ЗУ</string>
 
     <!-- Battery light -->
     <string name="battery_light_settings">Индикатор заряда батареи</string>
@@ -204,7 +204,7 @@
     <string name="double_tap_to_sleep_title">Двойной тап по строке состояния для перехода в спящий режим</string>
     <string name="double_tap_to_sleep_summary">Двойной тап по строке состояния переведёт устройство в спящий режим</string>
     <!-- Lockscreen double tap to sleep -->
-    <string name="double_tap_sleep_lockscreen_title">Двойной тап по экрану блокировки для перехода в спящий режим</string>
+    <string name="double_tap_sleep_lockscreen_title">Двойной тап на экране блокировки для перехода в спящий режим</string>
     <string name="double_tap_sleep_lockscreen_summary">Двойной тап по любому месту на экране блокировки переведёт устройство в спящий режим</string>
 
     <!-- Disable power menu on secure lock screen -->
@@ -350,17 +350,17 @@
     <string name="lockscreen_cover_filter_grayscale">Оттенок серого</string>
     <string name="lockscreen_cover_filter_tint">Акцент затонированный</string>
     <string name="lockscreen_cover_filter_blur">Размыто</string>
-    <string name="lockscreen_cover_filter_grayblur">Оттенок серого и размытие</string>
-    <string name="lockscreen_cover_filter_gradientblur">Размытие оттенка серого</string>
+    <string name="lockscreen_cover_filter_grayblur">Размытие оттенков серого</string>
+    <string name="lockscreen_cover_filter_gradientblur">Размытие градиента</string>
 
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Жест трёмя пальцами</string>
+    <string name="three_finger_gesture">Жест тремя пальцами</string>
     <string name="three_finger_gesture_summary">Проведите тремя пальцами для скриншота</string>
 
     <!-- Volume Steps -->
     <string name="volume_steps_title">Шаги громкости</string>
     <string name="volume_steps_alarm_title">Шаги громкости: Будильник</string>
-    <string name="volume_steps_dtmf_title">Шаги громкости: DTMF</string>
+    <string name="volume_steps_dtmf_title">Шаги громкости: Тональный набор</string>
     <string name="volume_steps_music_title">Шаги громкости: Музыка</string>
     <string name="volume_steps_notification_title">Шаги громкости: Уведомление</string>
     <string name="volume_steps_ring_title">Шаги громкости: Рингтон</string>
@@ -452,7 +452,7 @@
     <string name="lockscreen_visualizer_enable_summary">Показывать визуализатор, когда музыка играет</string>
     <string name="lockscreen_autocolor_title">Автоматический цвет</string>
     <string name="lockscreen_autocolor_summary">Синхронизировать цвет с расцветкой фона</string>
-    <string name="lockscreen_autocolor_lavalamp">Необходимость лава-лампы отключена</string>
+    <string name="lockscreen_autocolor_lavalamp">Лава-лампа отключена</string>
     <string name="lockscreen_lavalamp_title">Лава-лампа</string>
     <string name="lockscreen_lavalamp_summary">Использовать мягкое свечение лава-лампы</string>
     <string name="lockscreen_lavalamp_speed_title">Интервал свечения</string>
@@ -497,7 +497,7 @@
 
     <!-- Charging animation -->
     <string name="charging_animation_title">Анимация зарядки</string>
-    <string name="charging_animation_summary">Показывать анимацию, когда ЗУ подключено</string>
+    <string name="charging_animation_summary">Показывать анимацию при подключении ЗУ</string>
 
     <!-- Per App aspect Ratio -->
     <string name="action_save">Сохранить</string>
@@ -510,7 +510,7 @@
 
     <!-- ambient visualizer -->
     <string name="ambient_visualizer_title">Включить визуализатор на Ambient Display</string>
-    <string name="ambient_visualizer_summary">Показывать панели визуализации также на Ambient Display (но менее непрозрачно)</string>
+    <string name="ambient_visualizer_summary">Показывать панели визуализации также на Ambient Display (но более прозрачно)</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Варианты вибрации при вызове</string>
@@ -528,8 +528,8 @@
 
     <!-- AOKP custom system animations -->
     <string name="system_animation_title">Система</string>
-    <string name="activity_open_title">Анимация начала действия</string>
-    <string name="activity_close_title">Анимация окончания действия</string>
+    <string name="activity_open_title">Анимация открытия действия</string>
+    <string name="activity_close_title">Анимация закрытия действия</string>
     <string name="task_open_title">Анимация открытия задачи</string>
     <string name="task_open_behind_title">Открывать задачу вне анимации</string>
     <string name="task_close_title">Анимация закрытия задачи</string>
@@ -616,7 +616,7 @@
     <string name="carrier_label_settings_title">Название оператора</string>
     <string name="carrier_label_settings_summary">Изменить отображение оператора</string>
     <string name="custom_carrier_label_title">Изменённое отображение оператора</string>
-    <string name="custom_carrier_label_explain">Пожалуйста, введите новое название. Оставьте пустым, чтобы вернуться к стандартному.</string>
+    <string name="custom_carrier_label_explain">Введите новое название. Оставьте пустым, чтобы вернуться к стандартному.</string>
     <string name="custom_carrier_label_notset">Кастом ярлык не установлен</string>
     <string name="show_carrier_title">Ярлык оператора</string>
     <string name="show_carrier_disabled">Отключен</string>
