@@ -68,6 +68,8 @@
     <!-- Enable navbar -->
     <string name="enable_navbar_title">Включить</string>
     <string name="enable_navbar_summary">Навигационная панель отображается</string>
+    <string name="nav_bar_tuner_title">Настройки навигационной панели</string>
+    <string name="nav_bar_tuner_summary">Изминения порядка кнопок навигации</string>
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Ярлыки на рабочем столе</string>
@@ -88,6 +90,38 @@
 
     <!-- Volume settings -->
     <string name="hardware_keys_vol_key_title">Кнопки громкости</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Принудительно раскрывать увидомления</string>
+    <string name="force_expanded_notifications_summary">Принудительнное раскрывание увидомлений в поддерживаемых приложениях</string>
+
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Отображение заголовк увидомлений</string>
+    <string name="notification_headers_summary">Отображать заголовки увидомлений в R стиле (Требуеться перезапуск SystemUI)</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_settings_title">Всплывающие увидомления</string>
+    <string name="heads_up_settings_summary">Настройка всплывающих увидомлений и прочие</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Таймер повората</string>
+    <string name="heads_up_snooze_summary">Если свайпнуть всплывающее уведомление вверх, то оно пропадет и уведомления не будут приходить некоторое время</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Время отображения</string>
+    <string name="heads_up_time_out_summary">Время отображения увидомления</string>
+
+    <!-- Heads up blacklists -->
+    <string name="add_heads_up_package">Управление приложениями</string>
+    <string name="heads_up_stoplist_title">Стоплист</string>
+    <string name="add_heads_up_stoplist_summary">Отключения всплывающих увидомлений в приложениях</string>
+    <string name="heads_up_blacklist_title">Чёрный список</string>
+    <string name="add_heads_up_blacklist_summary">Отключения всплывающийх увидомлений для приложений</string>
+
+    <!-- Allow fake signature checkbox in developer settings -->
+    <string name="allow_signature_fake">Разрешить подделку подписи</string>
+    <string name="allow_signature_fake_summary">Разрешить приложениям обходить системы безопасности и выдавая себя за другое приложение</string>
+
 
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Тайм-аут подсветки кнопок</string>
@@ -769,6 +803,8 @@
     <string name="qs_bg_use_fw_summary">Отключить пользовательские стили быстрых настроек для внешних движков тем</string>
     <string name="qs_bg_accent_title">Использовать цветовой акцент</string>
     <string name="qs_bg_accent_summary">Установить фоновый цвет быстрых настроек из системного акцента</string>
+     <string name="qs_bg_use_new_tint">Оттенок</string>
+    <string name="qs_bg_use_new_tint_summary">Включить оттеннок QS tiles</string>
 
     <!-- Themes -->
     <string name="theme_select_title">Темы</string>
@@ -781,6 +817,8 @@
     <string name="unit_seconds">секунды</string>
     <string name="unit_milliseconds">милисекунды</string>
     <string name="unit_pixels">dp</string>
+
+
 
     <!-- Statusbar ticker -->
     <string name="status_bar_show_ticker_title">Бегущая строка (beta)</string>
@@ -865,6 +903,8 @@
     <string name="fod_recog_animation_pureview_future">Future</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
 
+
+
     <!-- Text Clock -->
     <string name="text_clock_customizations">Текстовые часы</string>
     <string name="text_clock_alignment">Выравнивание</string>
@@ -874,4 +914,46 @@
     <string name="text_clock_left_right">Лево-право</string>
     <string name="text_clock_right_left">Право-лево</string>
     <string name="text_clock_padding">Свечение края</string>
+
+       <!-- About -->
+    <string name="about_title">О Нас</string>
+    <string name="about_team_category">Наша команда</string>
+    <string name="about_external_category">Внешние ссылки</string>
+    <string name="about_ceo_title">Генеральный директор</string>
+    <string name="about_ceo_name">Alexander Brunswig</string>
+    <string name="about_ceo_git" translatable="false">https://github.com/NurKeinNeid</string>
+    <string name="about_dev_title">Ведущий разработчик</string>
+    <string name="about_dev_name">Ido Ben-Hur</string>
+    <string name="about_dev_git" translatable="false">https://github.com/idoybh</string>
+    <string name="about_qa_title">Ведущий QA</string>
+    <string name="about_qa_name">David Setiawan</string>
+    <string name="about_qa_git" translatable="false">https://github.com/fryevia</string>
+    <string name="maintainer_name" translatable="false">Alexander Brunswig</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/DerpFest5T</string>
+    <string name="about_site_title">Сайт</string>
+    <string name="about_site_summary">Visit DerpFest.org</string>
+    <string name="about_site_link" translatable="false">https://derpfest.org/</string>
+    <string name="about_tg_title">Telegram Група</string>
+    <string name="about_tg_summary">Официальнная, Глобальная Telegram група</string>
+    <string name="about_tg_link" translatable="false">https://t.me/DerpFest5T</string>
+    <string name="about_wall_title">Обои</string>
+    <string name="about_wall_summary">Telegram канал с обоями Derpfest</string>
+    <string name="about_wall_link" translatable="false">https://t.me/DerpFestWalls</string>
+    <string name="about_git_title">ROM Source Code</string>
+    <string name="about_git_summary">Просмотр исзодников на GitHub</string>
+    <string name="about_git_link" translatable="false">https://github.com/DerpLab</string>
+    <string name="about_devices_git_title">Исходный код устройств</string>
+    <string name="about_devices_git_summary">Наши исходники устройств на GitHub</string>
+    <string name="about_devices_git_link" translatable="false">https://github.com/DerpFest-Devices</string>
+    <string name="about_phone_title">О Телефоне</string>
+    <string name="about_phone_summary">Открыть страницу о телефоне</string>
+
+    <!-- About - Device specific links -->
+    <string name="about_device_category">Device Specific Links</string>
+    <string name="about_device_fw">Required firmware</string>
+    <string name="about_device_fw_ver" translatable="false"></string> <!-- Firmware version -->
+    <string name="about_device_fw_link" translatable="false"></string> <!-- Firmware link -->
+    <string name="about_device_recovery">Recommended Recovery</string>
+    <string name="about_device_recovery_ver" translatable="false"></string> <!-- Recovery version -->
+    <string name="about_device_recovery_link" translatable="false"></string> <!-- Recovery link -->
 </resources>
